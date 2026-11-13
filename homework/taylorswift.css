@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body{
+     font-family: "DM Sans", sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+#introduction {
+    text-align: center;
+    padding: 20px;
+}
+#gallery-images {
+    
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+img{
+    margin: 0 10px;
+}
+
+p {
+    text-align: center;
+}
+#introduction {
+    text-align: center;
+   
+}
+
+
+header {
+    text-align: center;
+    background-color: #d5e8f6;
+    padding: 10px ;
+   
+     
+}
+header h1 {
+    color: #477ca8;
+    font-size: 30px;
+    
+}
+
+section {
+    padding: 70px 10%;
+}
+
+section h2 {
+    text-align: center;
+    color: #477ca8;
+    font-size: 35px;
+   
+}
+
+
+footer {
+    background-color: #d5e8f6;
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    color: #365b7b;
+}
+
+nav a{
+    text-decoration: none;
+     text-color: #365b7b;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.track-list a {
+    text-decoration: none;
+    color: #365b7b;
+    font-weight: bold;
+    margin: 0 10px;
+}
+   a{
+    text-decoration: none;
+    text-color: #aed6f8;
+   }
+   ul{
+    list-style-type: "🩵​";
+   }
+   #gallery {
+    
+    justify-content: center;
+    gap: 10px;
+   }
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #365b7b;
+}
+   
+.tracks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.track {
+    background-color: #dceaf5;
+    padding: 20px;
+    text-align: center;
+}
+
+.track a {
+    text-decoration: none;
+    color: #477ca8;
+}
+
+.track:hover {
+    background-color: #c3d9ec;
+}
